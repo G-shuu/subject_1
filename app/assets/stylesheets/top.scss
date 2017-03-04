@@ -1,0 +1,159 @@
+.navbar-default {
+    border: 0;
+}
+.navbar {
+    background-color: #CBFFD3;
+    color: white;
+    margin-bottom: 0px;
+}
+.navbar-default {
+  .navbar-brand {
+    color: black;
+    &:hover {
+      color: black;
+    }
+  }
+  .navbar-nav > li > a {
+    color: black;
+    &:hover, &:focus {
+      color: black;
+    }
+  }
+  .navbar-nav > .open > a {
+    background-color: #CBFFD3;
+    color: black;
+    &:hover, &:focus {
+      background-color: #CBFFD3;
+      color: black;
+    }
+  }
+}
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+    text-align: center;
+    &:hover, &:focus {
+      color: black;
+    }
+  }
+  .navbar-default .navbar-toggle {
+    background-color: #CBFFD3;
+    &:hover, &:focus {
+      background-color: #CBFFD3;
+    }
+  }
+}
+
+.login,
+.signup {
+  width: 300px;
+  margin: 16px auto;
+  font-size: 16px;
+  margin-bottom:100px;
+}
+
+.login-header,
+.login p,
+.signup-header,
+.signup p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-header, 
+.signup-header {
+  background: #78FF94;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container,
+.signup-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.login p,
+.signup p{
+  padding: 12px;
+}
+
+.login input,
+.signup input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"],
+.signup input[type="name"],
+.signup input[type="email"], 
+.signup input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus,
+.signup input[type="name"]:focus,
+.signup input[type="email"]:focus, 
+.signup input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"], 
+.signup input[type="submit"] {
+  background: #78FF94;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover, 
+.signup input[type="submit"]:hover {
+  background: #00FF3B;
+}
+
+.login input[type="submit"]:focus,  
+.signup input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0 10px 0;
+  color: black;
+  margin: auto;
+  font-size: 12px;
+  bottom: 0;
+  position: fixed;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#introduction {
+  color: black;
+  text-align: left;
+  font-size: 28px;
+  padding: 20px;
+  margin-bottom:100px;
+}
+
+body {
+  text-align: center;
+}
